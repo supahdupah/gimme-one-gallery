@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "i18next": "^11.5.0",
+    "i18next-browser-languagedetector": "^2.2.3",
+    "i18next-xhr-backend": "^1.5.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-i18next": "^7.10.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -12,5 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.7"
   }
 }
