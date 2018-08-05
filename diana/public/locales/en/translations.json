@@ -3,5 +3,40 @@
     "description": {
       "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
       "part2": "Switch language between english and german using buttons above."
-    }
+    },
+    "menuItem0": "Pintura",
+    "menuItem1": "Dibujos",
+    "menuItem2": "Ilustraciones",
+    "menuItem3": "Escultura",
+    "menuItem4": "Juegos",
+    "menuItem5": "Catalogos",
+    "menuItem6": "Prensa",
+    "menuData": [{
+        "name": "PAINTINGS",
+        "subMenu": ["New File", "Open"]
+      }, {
+        "name": "DRAWINGS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "Ilustraciones",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "ESCULTURA",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "JUEGOS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "CATALOGOS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "PRENSA",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "OTROS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "Contacts",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }]
 }

@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-router-dom": "^4.3.0",
     "i18next": "^11.5.0",
     "i18next-browser-languagedetector": "^2.2.3",
     "i18next-xhr-backend": "^1.5.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-i18next": "^7.10.1",
+    "react-images": "^0.5.19",
+    "react-menu-aim": "^2.0.0",
+    "react-photo-gallery": "^6.1.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {

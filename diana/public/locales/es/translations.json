@@ -3,5 +3,33 @@
     "description": {
       "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> speicheren und neuladen.",
       "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter."
-    }
-  }
+    },
+    "menuData": [{
+        "name": "PINTURA",
+        "subMenu": ["New File", "Open"]
+      }, {
+        "name": "DIBUJOS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "Ilustraciones",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "ESCULTURA",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "JUEGOS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "CATALOGOS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "PRENSA",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "OTROS",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }, {
+        "name": "CONTACTO",
+        "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
+      }]
+}
