@@ -12,31 +12,44 @@
     "menuItem5": "Catalogos",
     "menuItem6": "Prensa",
     "menuData": [{
+        "name": "Home",
+        "path": "/",
+        "subMenu": ["New File", "Open"]
+      },{
         "name": "PAINTINGS",
+        "path": "/paintings",
         "subMenu": ["New File", "Open"]
       }, {
         "name": "DRAWINGS",
+        "path": "/drawings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "Ilustraciones",
+        "path": "/ilustrations",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "ESCULTURA",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "JUEGOS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "CATALOGOS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "PRENSA",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "OTROS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "Contacts",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }]
 }

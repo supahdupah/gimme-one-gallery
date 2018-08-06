@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactMenuAim from 'react-menu-aim';
 import createReactClass from 'create-react-class';
-import Ilustrations from '../Gallery/Ilustrations'
 import {
-  BrowserRouter as Router,
-  Route,
   Link
-} from 'react-router-dom';
-
+} from 'react-router-dom'
 import './styles.css';
 
 
@@ -41,7 +37,9 @@ var Menu = createReactClass({
     });
   },
 
-  handleMouseLeaveMenuCustom: function(handler, e) {
+  handleMouseLeaveMenuCustom: function(handler,e) {
+    var a = document.getElementsByClassName('sub-menu');
+    a.hidden = true;
     this.setState({
       activeMenuIndex: 1
     });
@@ -58,7 +56,7 @@ var Menu = createReactClass({
 
     return (
       <div className={containerClassName}>
-        <ul className="menu" onMouseLeave={this.handleMouseLeaveMenu.bind(this, 1, this.handleMouseLeaveMenuCustom)}>
+        <ul className="menu" onMouseLeave={this.handleMouseLeaveMenu.bind(this,this.handleMouseLeaveMenuCustom)}>
           {this.props.menuData.map(function(menu, index) {
             var className = 'menu-item';
             if (index === self.state.activeMenuIndex) {
@@ -69,19 +67,18 @@ var Menu = createReactClass({
                   onMouseEnter={function(){
                     self.handleMouseEnterRow.call(self, index, self.handleSwitchMenuIndex);
                   }}>
-              <a href="http://localhost:3000/ilustrations"/>
-                {menu.name}
+                  <Link to={menu.path}>{menu.name}</Link>
               </li>
             );
           })}
         </ul>
-        <ul className="sub-menu" style={subMenuStyle}>
+        {/* <ul className="sub-menu" style={subMenuStyle}>
           {this.props.menuData[this.state.activeMenuIndex].subMenu.map((function(subMenu, index){
             return (
               <li className="sub-menu-item" key={index}>{subMenu}</li>
             );
           }))}
-        </ul>
+        </ul> */}
       </div>
     );
   }

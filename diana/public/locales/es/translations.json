@@ -5,31 +5,44 @@
       "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter."
     },
     "menuData": [{
+        "name": "HOME",
+        "path": "/",
+        "subMenu": ["New File", "Open"]
+      },{
         "name": "PINTURA",
+        "path": "/paintings",
         "subMenu": ["New File", "Open"]
       }, {
         "name": "DIBUJOS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "Ilustraciones",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "ESCULTURA",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "JUEGOS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "CATALOGOS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "PRENSA",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "OTROS",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }, {
         "name": "CONTACTO",
+        "path": "/paintings",
         "subMenu": ["Undo Insert Characters", "Repeat Insert Characters"]
       }]
 }
